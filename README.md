@@ -1,5 +1,7 @@
 # WirelessSignalTransmission-RFSoC
+
 Wireless Signal Transmission and LED Control Using RFSoC-PYNQ in JupyterLab.
+
 ## Hardware Requirements
 - Zynq UltraScale+ RFSoC boards (Transmitter and Receiver)
 - Antennas connected to DAC/ADC
@@ -18,8 +20,33 @@ Wireless Signal Transmission and LED Control Using RFSoC-PYNQ in JupyterLab.
 4. Run `receiver_code.py` on the receiver board
 5. Press the on-board buttons to transmit different frequencies
 
-## License
-(If you choose a license, mention it here, e.g. MIT License, Apache 2.0, etc.)
+## Component Photos
+Below are images of the various project components and setups.
+
+### Zynq UltraScale+ RFSoC
+![Zynq UltraScale+ RFSoC](images/ZYNQ_ULTRASCALE_RFSOC.jpg)
+
+*Description:* A powerful System on Chip (SoC) that integrates high-speed ADCs, DACs, programmable logic, and a processing system, enabling advanced signal processing and embedded development.
+
+### 1. LED Transmitter
+![LED Transmitter](images/LED_TRANSMITTER.jpg)
+
+*Description:* RFSoC board transmitting RF signals for LED control.
+
+### 2. LED Receiver
+![LED Receiver](images/LED_RECEIVER.jpg)
+
+*Description:* RFSoC board receiving RF signals and illuminating onboard LEDs.
+
+### 3. RGB Transmitter
+![RGB Transmitter](images/RGB_PMOD_TRANSMITTER.jpg)
+
+*Description:* RFSoC board transmitting signals at multiple frequencies to drive RGB LEDs.
+
+### 4. RGB Receiver
+![RGB Receiver](images/RGB_PMOD_RECEIVER.jpg)
+
+*Description:* RFSoC board equipped with a PMOD circuit to control external RGB LEDs based on received signals.
 
 ## Contact
-For questions, contact [Your Name] at [Your Email].
+For questions, contact Dhaval Kalathiya at kalathiyadhaval1512@gmail.com. CREATE FULL READ ME
