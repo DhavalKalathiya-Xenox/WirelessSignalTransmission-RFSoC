@@ -49,4 +49,4 @@ Below are images of the various project components and setups.
 *Description:* RFSoC board equipped with a PMOD circuit to control external RGB LEDs based on received signals.
 
 ## Contact
-For questions, contact Dhaval Kalathiya at kalathiyadhaval1512@gmail.com. CREATE FULL READ ME
+For questions, contact Dhaval Kalathiya at kalathiyadhaval1512@gmail.com.
